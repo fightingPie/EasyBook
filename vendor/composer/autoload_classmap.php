@@ -6,6 +6,10 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'App\\Api\\Controllers\\AuthController' => $baseDir . '/app/Api/Controllers/AuthController.php',
+    'App\\Api\\Controllers\\BaseController' => $baseDir . '/app/Api/Controllers/BaseController.php',
+    'App\\Api\\Controllers\\LessonController' => $baseDir . '/app/Api/Controllers/LessonController.php',
+    'App\\Api\\Transformers\\LessonTransformer' => $baseDir . '/app/Api/Transformers/LessonTransformer.php',
     'App\\Console\\Kernel' => $baseDir . '/app/Console/Kernel.php',
     'App\\Exceptions\\Handler' => $baseDir . '/app/Exceptions/Handler.php',
     'App\\Http\\Controllers\\ApiController' => $baseDir . '/app/Http/Controllers/ApiController.php',
@@ -36,6 +40,7 @@ return array(
     'Carbon\\Exceptions\\InvalidDateException' => $vendorDir . '/nesbot/carbon/src/Carbon/Exceptions/InvalidDateException.php',
     'CreateLessonsTable' => $baseDir . '/database/migrations/2017_07_20_095910_create_lessons_table.php',
     'CreatePasswordResetsTable' => $baseDir . '/database/migrations/2014_10_12_100000_create_password_resets_table.php',
+    'CreatePostsTable' => $baseDir . '/database/migrations/2017_07_26_023712_create_posts_table.php',
     'CreateUsersTable' => $baseDir . '/database/migrations/2014_10_12_000000_create_users_table.php',
     'Cron\\AbstractField' => $vendorDir . '/mtdowling/cron-expression/src/Cron/AbstractField.php',
     'Cron\\CronExpression' => $vendorDir . '/mtdowling/cron-expression/src/Cron/CronExpression.php',

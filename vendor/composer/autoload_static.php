@@ -321,6 +321,10 @@ class ComposerStaticInitc7f2b8f4706657f25a17301e84b3ae9f
     );
 
     public static $classMap = array (
+        'App\\Api\\Controllers\\AuthController' => __DIR__ . '/../..' . '/app/Api/Controllers/AuthController.php',
+        'App\\Api\\Controllers\\BaseController' => __DIR__ . '/../..' . '/app/Api/Controllers/BaseController.php',
+        'App\\Api\\Controllers\\LessonController' => __DIR__ . '/../..' . '/app/Api/Controllers/LessonController.php',
+        'App\\Api\\Transformers\\LessonTransformer' => __DIR__ . '/../..' . '/app/Api/Transformers/LessonTransformer.php',
         'App\\Console\\Kernel' => __DIR__ . '/../..' . '/app/Console/Kernel.php',
         'App\\Exceptions\\Handler' => __DIR__ . '/../..' . '/app/Exceptions/Handler.php',
         'App\\Http\\Controllers\\ApiController' => __DIR__ . '/../..' . '/app/Http/Controllers/ApiController.php',
@@ -351,6 +355,7 @@ class ComposerStaticInitc7f2b8f4706657f25a17301e84b3ae9f
         'Carbon\\Exceptions\\InvalidDateException' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/Exceptions/InvalidDateException.php',
         'CreateLessonsTable' => __DIR__ . '/../..' . '/database/migrations/2017_07_20_095910_create_lessons_table.php',
         'CreatePasswordResetsTable' => __DIR__ . '/../..' . '/database/migrations/2014_10_12_100000_create_password_resets_table.php',
+        'CreatePostsTable' => __DIR__ . '/../..' . '/database/migrations/2017_07_26_023712_create_posts_table.php',
         'CreateUsersTable' => __DIR__ . '/../..' . '/database/migrations/2014_10_12_000000_create_users_table.php',
         'Cron\\AbstractField' => __DIR__ . '/..' . '/mtdowling/cron-expression/src/Cron/AbstractField.php',
         'Cron\\CronExpression' => __DIR__ . '/..' . '/mtdowling/cron-expression/src/Cron/CronExpression.php',

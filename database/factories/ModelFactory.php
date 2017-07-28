@@ -23,11 +23,18 @@
 //    ];
 //});
 
+//
+//$factory->define(App\Lesson::class, function (Faker\Generator $faker) {
+//    return [
+//        'title' => $faker->sentence,
+//        'body' => $faker->paragraph,
+//        'free' => $faker->boolean()
+//    ];
+//});
 
-$factory->define(App\Lesson::class, function (Faker\Generator $faker) {
+$factory->define(App\Post::class, function (Faker\Generator $faker) {
     return [
-        'title' => $faker->sentence,
-        'body' => $faker->paragraph,
-        'free' => $faker->boolean()
+        'title' => $faker->sentence(6),
+        'content' => $faker->paragraph(10),
     ];
 });
